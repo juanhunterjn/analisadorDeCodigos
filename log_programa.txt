@@ -1,0 +1,72 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Date: 19-4-2021 -- Time: 17:27:22
+ -> line 1: Function definition
+ -> line 2: Operator: sum or concatenation of string
+ -> line 2: Value assignment
+ -> line 5: Function definition
+ -> line 6: Operator: subtraction or complementation of a set
+ -> line 6: Value assignment
+ -> line 9: Value assignment
+ -> line 10: Value assignment
+ -> line 12: Loop opening with WHILE
+ -> line 12: Value assignment
+ -> line 13: Operator: sum or concatenation of string
+ -> line 13: Value assignment
+ -> line 14: Conditional imposed
+ -> line 15: On-screen data output
+ -> line 17: Value assignment
+ -> line 18: Value assignment
+ -> line 20: Loop opening with WHILE
+ -> line 20: Value assignment
+ -> line 21: Operator: sum or concatenation of string
+ -> line 21: Value assignment
+ -> line 22: Conditional imposed
+ -> line 23: On-screen data output
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Date: 19-4-2021 -- Time: 17:27:36
+ -> line 1: Function definition
+ -> line 2: Operator: sum or concatenation of string
+ -> line 2: Value assignment
+ -> line 5: Function definition
+ -> line 6: Operator: subtraction or complementation of a set
+ -> line 6: Value assignment
+ -> line 9: Value assignment
+ -> line 10: Value assignment
+ -> line 12: Loop opening with WHILE
+ -> line 12: Value assignment
+ -> line 13: Operator: sum or concatenation of string
+ -> line 13: Value assignment
+ -> line 14: Conditional imposed
+ -> line 15: On-screen data output
+ -> line 17: Value assignment
+ -> line 18: Value assignment
+ -> line 20: Loop opening with WHILE
+ -> line 20: Value assignment
+ -> line 21: Operator: sum or concatenation of string
+ -> line 21: Value assignment
+ -> line 22: Conditional imposed
+ -> line 23: On-screen data output
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Date: 19-4-2021 -- Time: 19:57:17
+ -> line 1: Function definition
+ -> line 2: Operator: sum or concatenation of string
+ -> line 2: Value assignment
+ -> line 5: Function definition
+ -> line 6: Operator: subtraction or complementation of a set
+ -> line 6: Value assignment
+ -> line 9: Value assignment
+ -> line 10: Value assignment
+ -> line 12: Loop opening with WHILE
+ -> line 12: Value assignment
+ -> line 13: Operator: sum or concatenation of string
+ -> line 13: Value assignment
+ -> line 14: Conditional imposed
+ -> line 15: On-screen data output
+ -> line 17: Value assignment
+ -> line 18: Value assignment
+ -> line 20: Loop opening with WHILE
+ -> line 20: Value assignment
+ -> line 21: Operator: sum or concatenation of string
+ -> line 21: Value assignment
+ -> line 22: Conditional imposed
+ -> line 23: On-screen data output
