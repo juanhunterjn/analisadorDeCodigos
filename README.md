@@ -2,10 +2,10 @@
 Analisador (rotulador) de códigos para cadeira de compiladores
 
 #Partes que constitutem o programa
--> rotulador.py
--> dicionario.py
--> log_programa.txt
--> programa_fonte.txt
+rotulador.py
+dicionario.py
+log_programa.txt
+programa_fonte.txt
 
 
 #Funcionamento
