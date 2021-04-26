@@ -1,4 +1,4 @@
-
+import re
 import dicionario
 from datetime import datetime
 
@@ -8,6 +8,17 @@ def whriteInLog(log, li_num):
   arquivo.write(str(li_num))
   arquivo.write(": ")
   arquivo.write(log)  
+  return arquivo.write("\n")
+  arquivo.close()
+
+def whriteInLogF(log, li_num, result):
+  arquivo = open("log_programa.txt", "a")
+  arquivo.write(" -> line ")
+  arquivo.write(str(li_num))
+  arquivo.write(": ")
+  arquivo.write(log)  
+  arquivo.write(" - ")
+  arquivo.write(result)
   return arquivo.write("\n")
   arquivo.close()
 
@@ -28,6 +39,7 @@ def dateTimeInLog():
   arquivo.write(":")
   arquivo.write(str(now.second))
   arquivo.write("\n")
+  arquivo.close()
 
 # Abre o arquivo txt e percorre seu conteúdo. O With faz com que 
 # o arquivo seja fechado sozinho depois do uso
@@ -94,7 +106,8 @@ with open('programa_fonte.txt') as f:
     if dicionario.tk28 in l:
       whriteInLog(dicionario.log028, l_num)
     if dicionario.tk29 in l:
-      whriteInLog(dicionario.log029, l_num)
+      result = re.findall(r'def \w+',l)
+      whriteInLogF(dicionario.log029, l_num, str(result))        
     if dicionario.tk30 in l:
       whriteInLog(dicionario.log030, l_num)
     if dicionario.tk31 in l:
@@ -103,3 +116,5 @@ with open('programa_fonte.txt') as f:
       whriteInLog(dicionario.log032, l_num)
     if dicionario.tk33 in l:
       whriteInLog(dicionario.log033, l_num)
+ 
+    
